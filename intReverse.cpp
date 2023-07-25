@@ -30,3 +30,14 @@ int main()
 }
 
 
+
+
+/** An alternative solution would be :
+
+long ans = 0;
+for (long int i= length-1; i>=0; i--){
+        ans = ans*10+x%10;
+        x = x/10;
+    }
+
+**/
